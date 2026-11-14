@@ -1,0 +1,11 @@
+{
+  "name": "bb8fps",
+  "owner": { "name": "BB8FPS" },
+  "plugins": [
+    {
+      "name": "otimizador-nvidia-competitivo",
+      "source": "./",
+      "description": "Configura PC com GPU NVIDIA para FPS competitivo replicando setups de pro players."
+    }
+  ]
+}

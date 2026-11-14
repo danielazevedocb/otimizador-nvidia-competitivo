@@ -1,0 +1,8 @@
+{
+  "name": "otimizador-nvidia-competitivo",
+  "description": "Configura PC com GPU NVIDIA para FPS competitivo replicando setups de pro players (driver, Windows, monitor, mouse, in-game).",
+  "version": "1.0.0",
+  "author": { "name": "BB8FPS" },
+  "license": "MIT",
+  "keywords": ["nvidia", "fps", "competitivo", "cs2", "valorant", "input-lag"]
+}

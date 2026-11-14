@@ -4,23 +4,32 @@ Skill para Claude Code que configura PC com GPU NVIDIA para FPS competitivo (CS2
 
 ## Instalação
 
-Clone o repositório e copie a pasta da skill.
+**Opção 1 — Plugin (recomendado).** Dentro do Claude Code:
 
-**Windows (PowerShell):**
+```
+/plugin marketplace add danielazevedocb/otimizador-nvidia-competitivo
+/plugin install otimizador-nvidia-competitivo@bb8fps
+```
+
+Reinicie a sessão. Atualizações: `/plugin marketplace update bb8fps`.
+
+**Opção 2 — Cópia manual da skill.**
+
+Windows (PowerShell):
 
 ```powershell
 git clone https://github.com/danielazevedocb/otimizador-nvidia-competitivo.git
-Copy-Item -Recurse .\otimizador-nvidia-competitivo\otimizador-nvidia-competitivo "$env:USERPROFILE\.claude\skills\"
+Copy-Item -Recurse .\otimizador-nvidia-competitivo\skills\otimizador-nvidia-competitivo "$env:USERPROFILE\.claude\skills\"
 ```
 
-**Linux / macOS:**
+Linux / macOS:
 
 ```bash
 git clone https://github.com/danielazevedocb/otimizador-nvidia-competitivo.git
-cp -r otimizador-nvidia-competitivo/otimizador-nvidia-competitivo ~/.claude/skills/
+cp -r otimizador-nvidia-competitivo/skills/otimizador-nvidia-competitivo ~/.claude/skills/
 ```
 
-Abra uma nova sessão do Claude Code.
+**Claude Desktop / claude.ai:** compacte a pasta `skills/otimizador-nvidia-competitivo` em `.zip` e envie em Configurações → Capacidades → Skills.
 
 ## Uso
 
